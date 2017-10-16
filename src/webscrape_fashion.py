@@ -4,7 +4,7 @@ import numpy as np
 from selenium import webdriver
 import time
 import boto3
-from multiprocessing.dummies import Pool
+from multiprocessing.dummy import Pool
 import pymongo
 import mongo_fashion
 
