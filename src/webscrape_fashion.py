@@ -59,7 +59,7 @@ def run_scrape(url):
     scrape_fitnyc()
 
 
-def pool_scrape(self):
+def pool_scrape():
     pool = Pool(20)
     pool.map(run_scrape, url_list_1900_to_present)
 
