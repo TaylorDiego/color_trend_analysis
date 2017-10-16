@@ -9,6 +9,9 @@ import pymongo
 import mongo_fashion
 
 
+s3 = boto3.client("s3")
+b = webdriver.Firefox()
+
 def scrape_fitnyc(self):
     anchor = "td.primaryMediaClass > a"
     image_links = b.find_elements_by_css_selector(anchor)
