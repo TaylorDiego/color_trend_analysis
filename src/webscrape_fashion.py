@@ -1,23 +1,24 @@
-import scipy as sp
-import PIL
+from io import BytesIO
+from PIL import Image
 import numpy as np
 from selenium import webdriver
-import time
 import boto3
 from multiprocessing.dummy import Pool
-import pymongo
-import mongo_fashion
+from pymongo import MongoClient
+import pickle
+from bson.binary import Binary
 
+display = Display(visible=0, size=(800,600))
+display.start()
 
-s3 = boto3.client("s3")
 b = webdriver.Firefox()
 
-def scrape_fitnyc(self):
+def scrape_fitnyc():
     anchor = "td.primaryMediaClass > a"
     image_links = b.find_elements_by_css_selector(anchor)
 
-    objs = []
-    for i in range(len(image_links)):
+    #objs = []
+    for i in range(len(image_links))[0:1]:
         try:
             obj_links = "td.primaryMediaClass > a"
             image_links = b.find_elements_by_css_selector(obj_links)
@@ -29,8 +30,12 @@ def scrape_fitnyc(self):
 
             obj_img = "div#singlemedia > div > a > img"
             img = b.find_element_by_css_selector(obj_img)
-            pic = PIL.Image.open(img)
-            obj['image'] = np.array(pic)
+            pic = img.screenshot_as_png
+            obj['image'] = pic
+
+            pic_convert = Image.open(BytesIO(pic)).convert('RGBA')
+            rgba_arr = np.asarray(pic_convert)
+            obj['rgba_arr'] = Binary(pickle.dumps(rgba_arr))
 
             obj_name = "div#singledata div.objname"
             obj['name'] = b.find_element_by_css_selector(obj_name).text
@@ -42,13 +47,10 @@ def scrape_fitnyc(self):
                     k, v = item.split(": ")
                     obj[k.lower()] = v
                 else:
-                    k, v = item
+                    v = item
                     obj['description'] = v
 
-            if 'object number' in obj:
-                filename = f"fitnyc_{obj['object number']}_{obj['date']}.png"
-
-            insert_db(objs.append(obj))
+            fashion_data.insert_one(obj)
 
         except Exception as e:
             print(repr(e))
@@ -57,14 +59,15 @@ def scrape_fitnyc(self):
             time.sleep(5)
 
 
-def run_scrape(url):
-    b.get(url)
-    scrape_fitnyc()
+def run_scrape():
+    for url in url_list_1900_to_present[0:1]:
+        b.get(url)
+        scrape_fitnyc()
 
-
-def pool_scrape():
-    pool = Pool(20)
-    pool.map(run_scrape, url_list_1900_to_present)
+def create_db():
+    client = MongoClient('mongodb://localhost:27017')
+    db = client['fashion']
+    fashion_data = db.fashion
 
 
 
@@ -114,4 +117,7 @@ url_list_1900_to_present = ["http://fashionmuseum.fitnyc.edu/view/objects/aslist
                             "http://fashionmuseum.fitnyc.edu/view/objects/aslist/830/25/dynasty-desc?t:state:flow=7426793e-bac9-4f0a-a536-a877fc8bc281",
                             "http://fashionmuseum.fitnyc.edu/view/objects/aslist/830/50/dynasty-desc?t:state:flow=d9177b4e-0fc8-4dd5-8247-a32b9c7fd44e"
                             ]
-pool_scrape()
+
+fashion_data = create_db()
+create_db()
+run_scrape()
