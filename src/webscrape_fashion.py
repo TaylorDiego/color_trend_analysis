@@ -3,7 +3,7 @@ from PIL import Image
 import numpy as np
 from selenium import webdriver
 import boto3
-from multiprocessing.dummy import Pool
+from pyvirtualdisplay import Display
 from pymongo import MongoClient
 import pickle
 from bson.binary import Binary
