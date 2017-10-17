@@ -68,8 +68,9 @@ def run_scrape():
 def create_db():
     client = MongoClient('mongodb://localhost:27017')
     db = client['fashion']
-    fashion_data = db.fashion
+    return db.fashion
 
+    #fashion_data = db.fashion
 
 
 url_list_1900_to_present = ["http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954",
@@ -120,5 +121,4 @@ url_list_1900_to_present = ["http://fashionmuseum.fitnyc.edu/view/objects/aslist
                             ]
 
 fashion_data = create_db()
-create_db()
 run_scrape()
