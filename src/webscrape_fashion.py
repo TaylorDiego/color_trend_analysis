@@ -19,7 +19,7 @@ def scrape_fitnyc():
     image_links = b.find_elements_by_css_selector(anchor)
 
     #objs = []
-    for i in range(len(image_links))[0:1]:
+    for i in range(len(image_links)):
         try:
             obj_links = "td.primaryMediaClass > a"
             image_links = b.find_elements_by_css_selector(obj_links)
@@ -61,9 +61,12 @@ def scrape_fitnyc():
 
 
 def run_scrape():
-    for url in url_list_1900_to_present[0:1]:
+    item_counter = 0
+    for url in url_list_1900_to_present:
         b.get(url)
         scrape_fitnyc()
+        item_counter += 1
+        print(item_counter)
 
 def create_db():
     client = MongoClient('mongodb://localhost:27017')
