@@ -1,5 +1,5 @@
 # dyanye_clothing_era_classifier
-An archeological survey of fashion from the 20th century to present
+An archeological survey of fashion from the 20th century to present, focused on color trends
 
 “D.Y.A.N.Y.E. - Dress your age (not your era)”: Clothing Era Classifier
 Acknowledgement:
