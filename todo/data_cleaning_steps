@@ -45,3 +45,7 @@ mask = df['date'].str.contains('|'.join(seasons))
 for ssn in seasons:
     mask = df['date'].str.contains(ssn)
     df[str(ssn)] = mask
+
+	#removed 'Autumn' bc True.count() = 0
+
+	del df['Autumn']
