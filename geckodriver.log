@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1508196757372	geckodriver	INFO	geckodriver 0.19.0
 1508196757376	geckodriver	INFO	Listening on 127.0.0.1:59793
 1508283012247	geckodriver	INFO	geckodriver 0.19.0
@@ -13002,3 +13003,492 @@ JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapes
 JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
 1508296472694	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/830/50/dynasty-desc?t:state:flow=d9177b4e-0fc8-4dd5-8247-a32b9c7fd44e"
 1508296472722	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/830/50/dynasty-desc?t:state:flow=d9177b4e-0fc8-4dd5-8247-a32b9c7fd44e"
+=======
+1508197458279	geckodriver	INFO	Listening on 127.0.0.1:64871
+1508197459330	mozprofile::profile	INFO	Using profile path /var/folders/zw/81fw4jhn08db278fz9n86ywm0000gn/T/rust_mozprofile.Nq5ZoHv2MW07
+1508197459331	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1508197459366	geckodriver::marionette	INFO	Connecting to Marionette on localhost:64880
+1508197459616	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1508197459921	Marionette	INFO	Enabled via --marionette
+2017-10-16 16:44:20.772 plugin-container[16959:2305759] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xae3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-16 16:44:20.773 plugin-container[16959:2305759] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xb103, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1508197461190	Marionette	INFO	Listening on port 64880
+1508197461230	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508197461262	Marionette	DEBUG	Register listener.js for window 2147483649
+1508197461318	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508197462018	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508197462018	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508197464355	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508197466792	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508197466803	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508197467466	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508197467467	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508197467621	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/761/0/dynasty-desc?t:state:flow=6e74c025-032e-48a0-a5a2-9575fd0182e7"
+1508197467934	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/761/0/dynasty-desc?t:state:flow=6e74c025-032e-48a0-a5a2-9575fd0182e7"
+1508197467941	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/761/0/dynasty-desc?t:state:flow=6e74c025-032e-48a0-a5a2-9575fd0182e7"
+1508197468591	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/761/0/dynasty-desc?t:state:flow=6e74c025-032e-48a0-a5a2-9575fd0182e7"
+1508197468591	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/761/0/dynasty-desc?t:state:flow=6e74c025-032e-48a0-a5a2-9575fd0182e7"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508197468805	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/761/50/dynasty-desc?t:state:flow=e94a3212-b7a0-4dc6-94e8-47956090f549"
+1508197469221	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/761/50/dynasty-desc?t:state:flow=e94a3212-b7a0-4dc6-94e8-47956090f549"
+1508197469231	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/761/50/dynasty-desc?t:state:flow=e94a3212-b7a0-4dc6-94e8-47956090f549"
+1508197469799	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/761/50/dynasty-desc?t:state:flow=e94a3212-b7a0-4dc6-94e8-47956090f549"
+1508197469800	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/761/50/dynasty-desc?t:state:flow=e94a3212-b7a0-4dc6-94e8-47956090f549"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508197469962	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/761/100/dynasty-desc?t:state:flow=dc072027-59f8-44c5-b549-ae5d283d7b33"
+1508197470622	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/761/100/dynasty-desc?t:state:flow=dc072027-59f8-44c5-b549-ae5d283d7b33"
+1508197470632	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/761/100/dynasty-desc?t:state:flow=dc072027-59f8-44c5-b549-ae5d283d7b33"
+1508197471200	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/761/100/dynasty-desc?t:state:flow=dc072027-59f8-44c5-b549-ae5d283d7b33"
+1508197471202	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/761/100/dynasty-desc?t:state:flow=dc072027-59f8-44c5-b549-ae5d283d7b33"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508197471341	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/762/25/dynasty-desc?t:state:flow=97490e37-a5e7-4d0a-9c35-32c4360ebbe4"
+1508197471617	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/762/25/dynasty-desc?t:state:flow=97490e37-a5e7-4d0a-9c35-32c4360ebbe4"
+1508197471626	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/762/25/dynasty-desc?t:state:flow=97490e37-a5e7-4d0a-9c35-32c4360ebbe4"
+1508197472494	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/762/25/dynasty-desc?t:state:flow=97490e37-a5e7-4d0a-9c35-32c4360ebbe4"
+1508197472494	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/762/25/dynasty-desc?t:state:flow=97490e37-a5e7-4d0a-9c35-32c4360ebbe4"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508197472788	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/763/0/dynasty-desc?t:state:flow=5600c02a-91b0-4c83-968d-699f0f47324d"
+1508197473321	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/763/0/dynasty-desc?t:state:flow=5600c02a-91b0-4c83-968d-699f0f47324d"
+1508197473331	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/763/0/dynasty-desc?t:state:flow=5600c02a-91b0-4c83-968d-699f0f47324d"
+1508197473936	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/763/0/dynasty-desc?t:state:flow=5600c02a-91b0-4c83-968d-699f0f47324d"
+1508197473936	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/763/0/dynasty-desc?t:state:flow=5600c02a-91b0-4c83-968d-699f0f47324d"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508197474263	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/763/50/dynasty-desc?t:state:flow=f3e609c4-7db8-4ab2-89f4-12f5eb3d6ff7"
+1508197474666	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/763/50/dynasty-desc?t:state:flow=f3e609c4-7db8-4ab2-89f4-12f5eb3d6ff7"
+1508197474673	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/763/50/dynasty-desc?t:state:flow=f3e609c4-7db8-4ab2-89f4-12f5eb3d6ff7"
+1508197475235	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/763/50/dynasty-desc?t:state:flow=f3e609c4-7db8-4ab2-89f4-12f5eb3d6ff7"
+1508197475235	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/763/50/dynasty-desc?t:state:flow=f3e609c4-7db8-4ab2-89f4-12f5eb3d6ff7"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508197475582	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/764/0/dynasty-desc?t:state:flow=49e72127-80f0-4eff-8a3c-276f6c4fbaa3"
+1508197476030	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/764/0/dynasty-desc?t:state:flow=49e72127-80f0-4eff-8a3c-276f6c4fbaa3"
+1508197476034	hyper::server	ERROR	request error = Header
+1508197476037	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/764/0/dynasty-desc?t:state:flow=49e72127-80f0-4eff-8a3c-276f6c4fbaa3"
+1508197476612	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/764/0/dynasty-desc?t:state:flow=49e72127-80f0-4eff-8a3c-276f6c4fbaa3"
+1508197476612	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/764/0/dynasty-desc?t:state:flow=49e72127-80f0-4eff-8a3c-276f6c4fbaa3"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508197476809	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/764/50/dynasty-desc?t:state:flow=9e4e939d-7073-4bff-864d-ab8abf2644fc"
+1508197477077	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/764/50/dynasty-desc?t:state:flow=9e4e939d-7073-4bff-864d-ab8abf2644fc"
+1508197477084	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/764/50/dynasty-desc?t:state:flow=9e4e939d-7073-4bff-864d-ab8abf2644fc"
+1508197477686	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/764/50/dynasty-desc?t:state:flow=9e4e939d-7073-4bff-864d-ab8abf2644fc"
+1508197477687	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/764/50/dynasty-desc?t:state:flow=9e4e939d-7073-4bff-864d-ab8abf2644fc"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508197477884	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/764/100/dynasty-desc?t:state:flow=b0236e05-e77e-466d-bc8e-326ffe0cd2bf"
+1508197478336	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/764/100/dynasty-desc?t:state:flow=b0236e05-e77e-466d-bc8e-326ffe0cd2bf"
+1508197478342	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/764/100/dynasty-desc?t:state:flow=b0236e05-e77e-466d-bc8e-326ffe0cd2bf"
+1508197479019	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/764/100/dynasty-desc?t:state:flow=b0236e05-e77e-466d-bc8e-326ffe0cd2bf"
+1508197479019	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/764/100/dynasty-desc?t:state:flow=b0236e05-e77e-466d-bc8e-326ffe0cd2bf"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508197479185	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/764/125/dynasty-desc?t:state:flow=682a2275-2def-47fc-bf52-9f60a05da6ab"
+1508197479513	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/764/125/dynasty-desc?t:state:flow=682a2275-2def-47fc-bf52-9f60a05da6ab"
+1508197479520	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/764/125/dynasty-desc?t:state:flow=682a2275-2def-47fc-bf52-9f60a05da6ab"
+1508197479843	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/764/125/dynasty-desc?t:state:flow=682a2275-2def-47fc-bf52-9f60a05da6ab"
+1508197479843	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/764/125/dynasty-desc?t:state:flow=682a2275-2def-47fc-bf52-9f60a05da6ab"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508197479944	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/764/175/dynasty-desc?t:state:flow=49956835-6bcf-40f3-aeb5-af57e339aaaf"
+1508197480036	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/764/175/dynasty-desc?t:state:flow=49956835-6bcf-40f3-aeb5-af57e339aaaf"
+1508197480044	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/764/175/dynasty-desc?t:state:flow=49956835-6bcf-40f3-aeb5-af57e339aaaf"
+1508197480658	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/764/175/dynasty-desc?t:state:flow=49956835-6bcf-40f3-aeb5-af57e339aaaf"
+1508197480658	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/764/175/dynasty-desc?t:state:flow=49956835-6bcf-40f3-aeb5-af57e339aaaf"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508197480794	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/765/25/dynasty-desc?t:state:flow=3a497a4e-20a2-49d8-bdce-ee7da4f08921"
+1508197481079	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/765/25/dynasty-desc?t:state:flow=3a497a4e-20a2-49d8-bdce-ee7da4f08921"
+1508197481086	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/765/25/dynasty-desc?t:state:flow=3a497a4e-20a2-49d8-bdce-ee7da4f08921"
+1508197481682	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/765/25/dynasty-desc?t:state:flow=3a497a4e-20a2-49d8-bdce-ee7da4f08921"
+1508197481684	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/765/25/dynasty-desc?t:state:flow=3a497a4e-20a2-49d8-bdce-ee7da4f08921"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508197481820	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/765/75/dynasty-desc?t:state:flow=bca5dba2-66b8-4104-b2c7-16bba7dd2ec6"
+1508197482582	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/765/75/dynasty-desc?t:state:flow=bca5dba2-66b8-4104-b2c7-16bba7dd2ec6"
+1508197482588	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/765/75/dynasty-desc?t:state:flow=bca5dba2-66b8-4104-b2c7-16bba7dd2ec6"
+1508197484500	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/765/75/dynasty-desc?t:state:flow=bca5dba2-66b8-4104-b2c7-16bba7dd2ec6"
+1508197484500	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/765/75/dynasty-desc?t:state:flow=bca5dba2-66b8-4104-b2c7-16bba7dd2ec6"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508197484859	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/766/75/dynasty-desc?t:state:flow=7250d9ee-bfd3-4025-a0e2-6f000835ac75"
+1508197485847	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/766/75/dynasty-desc?t:state:flow=7250d9ee-bfd3-4025-a0e2-6f000835ac75"
+1508197485861	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/766/75/dynasty-desc?t:state:flow=7250d9ee-bfd3-4025-a0e2-6f000835ac75"
+1508197487602	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/766/75/dynasty-desc?t:state:flow=7250d9ee-bfd3-4025-a0e2-6f000835ac75"
+1508197487602	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/766/75/dynasty-desc?t:state:flow=7250d9ee-bfd3-4025-a0e2-6f000835ac75"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508197487745	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/767/75/dynasty-desc?t:state:flow=0d2b3b94-56d9-49e4-b997-103d5c3d697e"
+1508197488463	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/767/75/dynasty-desc?t:state:flow=0d2b3b94-56d9-49e4-b997-103d5c3d697e"
+1508197488471	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/767/75/dynasty-desc?t:state:flow=0d2b3b94-56d9-49e4-b997-103d5c3d697e"
+1508197489769	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/767/75/dynasty-desc?t:state:flow=0d2b3b94-56d9-49e4-b997-103d5c3d697e"
+1508197489769	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/767/75/dynasty-desc?t:state:flow=0d2b3b94-56d9-49e4-b997-103d5c3d697e"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508197489906	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/831/0/dynasty-desc?t:state:flow=585c202d-8182-4954-b071-8159a5711ed8"
+1508197490720	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/831/0/dynasty-desc?t:state:flow=585c202d-8182-4954-b071-8159a5711ed8"
+1508197490725	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/831/0/dynasty-desc?t:state:flow=585c202d-8182-4954-b071-8159a5711ed8"
+1508197491998	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/831/0/dynasty-desc?t:state:flow=585c202d-8182-4954-b071-8159a5711ed8"
+1508197491999	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/831/0/dynasty-desc?t:state:flow=585c202d-8182-4954-b071-8159a5711ed8"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508197492341	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/830/0/dynasty-desc?t:state:flow=3a6d0fb2-f214-4e3c-9b8a-5b8d68d5b32e"
+1508197493223	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/830/0/dynasty-desc?t:state:flow=3a6d0fb2-f214-4e3c-9b8a-5b8d68d5b32e"
+1508197493229	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/830/0/dynasty-desc?t:state:flow=3a6d0fb2-f214-4e3c-9b8a-5b8d68d5b32e"
+1508197493884	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/830/0/dynasty-desc?t:state:flow=3a6d0fb2-f214-4e3c-9b8a-5b8d68d5b32e"
+1508197493884	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/830/0/dynasty-desc?t:state:flow=3a6d0fb2-f214-4e3c-9b8a-5b8d68d5b32e"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508197494202	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/830/50/dynasty-desc?t:state:flow=d9177b4e-0fc8-4dd5-8247-a32b9c7fd44e"
+1508197494294	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/830/50/dynasty-desc?t:state:flow=d9177b4e-0fc8-4dd5-8247-a32b9c7fd44e"
+1508197807177	geckodriver	INFO	Listening on 127.0.0.1:49356
+1508197808223	mozprofile::profile	INFO	Using profile path /var/folders/zw/81fw4jhn08db278fz9n86ywm0000gn/T/rust_mozprofile.RFbXEmFmX7An
+1508197808224	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1508197808226	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49365
+1508197808444	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1508197808714	Marionette	INFO	Enabled via --marionette
+2017-10-16 16:50:09.483 plugin-container[17303:2311897] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xad3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-16 16:50:09.484 plugin-container[17303:2311897] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xb003, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1508197809838	Marionette	INFO	Listening on port 49365
+1508197809879	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508197809909	Marionette	DEBUG	Register listener.js for window 2147483649
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1508197877532	geckodriver	INFO	Listening on 127.0.0.1:49582
+1508197878577	mozprofile::profile	INFO	Using profile path /var/folders/zw/81fw4jhn08db278fz9n86ywm0000gn/T/rust_mozprofile.DpwBDc2y5Bvt
+1508197878577	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1508197878579	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49592
+1508197878799	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1508197879074	Marionette	INFO	Enabled via --marionette
+2017-10-16 16:51:19.827 plugin-container[17312:2313326] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-16 16:51:19.828 plugin-container[17312:2313326] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaf03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1508197880159	Marionette	INFO	Listening on port 49592
+1508197880246	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508197880275	Marionette	DEBUG	Register listener.js for window 2147483649
+1508197880297	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508197881830	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508197881830	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508197882633	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508197884146	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1508197907262	geckodriver	INFO	Listening on 127.0.0.1:49744
+1508197908301	mozprofile::profile	INFO	Using profile path /var/folders/zw/81fw4jhn08db278fz9n86ywm0000gn/T/rust_mozprofile.xjJbdziDWXbt
+1508197908302	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1508197908306	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49755
+1508197908491	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1508197908748	Marionette	INFO	Enabled via --marionette
+2017-10-16 16:51:49.468 plugin-container[17320:2314245] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xae3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-16 16:51:49.468 plugin-container[17320:2314245] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xb103, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1508197909782	Marionette	INFO	Listening on port 49755
+1508197909857	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508197909886	Marionette	DEBUG	Register listener.js for window 2147483649
+1508197909901	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508197910521	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508197910521	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508197911412	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508197913440	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508197913505	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508197913739	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508197913739	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508197913870	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/0/dynasty-desc;jsessionid=D741A89F63F084FA93858FA87AEB1C0D?t:state:flow=4e3d1222-2fa7-478d-8ef9-9a2d14a67e25"
+1508197913949	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/0/dynasty-desc;jsessionid=D741A89F63F084FA93858FA87AEB1C0D?t:state:flow=4e3d1222-2fa7-478d-8ef9-9a2d14a67e25"
+1508197918969	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/0/dynasty-desc;jsessionid=D741A89F63F084FA93858FA87AEB1C0D?t:state:flow=4e3d1222-2fa7-478d-8ef9-9a2d14a67e25"
+1508197918977	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/0/dynasty-desc;jsessionid=D741A89F63F084FA93858FA87AEB1C0D?t:state:flow=4e3d1222-2fa7-478d-8ef9-9a2d14a67e25"
+1508197918977	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/0/dynasty-desc;jsessionid=D741A89F63F084FA93858FA87AEB1C0D?t:state:flow=4e3d1222-2fa7-478d-8ef9-9a2d14a67e25"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508197919072	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508197919283	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508197924329	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508197924505	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508197924505	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508197924685	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/1/dynasty-desc;jsessionid=D741A89F63F084FA93858FA87AEB1C0D?t:state:flow=4e3d1222-2fa7-478d-8ef9-9a2d14a67e25"
+1508197924728	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/1/dynasty-desc;jsessionid=D741A89F63F084FA93858FA87AEB1C0D?t:state:flow=4e3d1222-2fa7-478d-8ef9-9a2d14a67e25"
+1508197929759	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/1/dynasty-desc;jsessionid=D741A89F63F084FA93858FA87AEB1C0D?t:state:flow=4e3d1222-2fa7-478d-8ef9-9a2d14a67e25"
+1508197929766	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/1/dynasty-desc;jsessionid=D741A89F63F084FA93858FA87AEB1C0D?t:state:flow=4e3d1222-2fa7-478d-8ef9-9a2d14a67e25"
+1508197929766	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/1/dynasty-desc;jsessionid=D741A89F63F084FA93858FA87AEB1C0D?t:state:flow=4e3d1222-2fa7-478d-8ef9-9a2d14a67e25"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508197929816	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508197929926	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508197934974	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508197935323	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508197935324	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508197935457	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/2/dynasty-desc;jsessionid=D741A89F63F084FA93858FA87AEB1C0D?t:state:flow=4e3d1222-2fa7-478d-8ef9-9a2d14a67e25"
+1508197935651	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/2/dynasty-desc;jsessionid=D741A89F63F084FA93858FA87AEB1C0D?t:state:flow=4e3d1222-2fa7-478d-8ef9-9a2d14a67e25"
+1508198306685	geckodriver	INFO	Listening on 127.0.0.1:50732
+1508198307724	mozprofile::profile	INFO	Using profile path /var/folders/zw/81fw4jhn08db278fz9n86ywm0000gn/T/rust_mozprofile.NiWmHJSiSU0E
+1508198307725	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1508198307730	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50741
+1508198307926	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1508198308184	Marionette	INFO	Enabled via --marionette
+2017-10-16 16:58:28.902 plugin-container[17336:2321192] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-16 16:58:28.902 plugin-container[17336:2321192] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaf03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1508198309233	Marionette	INFO	Listening on port 50741
+1508198309286	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508198309315	Marionette	DEBUG	Register listener.js for window 2147483649
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1508198349185	geckodriver	INFO	Listening on 127.0.0.1:50885
+1508198350222	mozprofile::profile	INFO	Using profile path /var/folders/zw/81fw4jhn08db278fz9n86ywm0000gn/T/rust_mozprofile.vchZu1h6SzlI
+1508198350223	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1508198350230	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50898
+1508198350412	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1508198350683	Marionette	INFO	Enabled via --marionette
+2017-10-16 16:59:11.414 plugin-container[17349:2322358] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-16 16:59:11.415 plugin-container[17349:2322358] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaf03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1508198351724	Marionette	INFO	Listening on port 50898
+1508198351788	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508198351815	Marionette	DEBUG	Register listener.js for window 2147483649
+1508198351830	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508198352775	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508198352775	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198354352	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198355828	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198355889	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198356119	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198356120	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198356252	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/0/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198356345	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/0/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198361361	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/0/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198361368	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/0/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198361370	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/0/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198361431	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198361670	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198366725	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198366920	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198366920	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198367107	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/1/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198367151	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/1/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198372176	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/1/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198372195	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/1/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198372198	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/1/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198372259	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198372402	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198377448	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198377794	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198377794	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198378006	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/2/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198378053	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/2/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198383076	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/2/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198383083	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/2/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198383083	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/2/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198383140	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198383394	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198388435	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198388611	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198388611	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198388749	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/3/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198388792	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/3/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198393809	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/3/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198393816	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/3/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198393816	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/3/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198393878	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198394016	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198399069	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198399279	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198399280	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198399397	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/4/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198399495	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/4/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198404513	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/4/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198404520	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/4/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198404520	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/4/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198404579	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198404688	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198409730	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198410013	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198410013	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198410300	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/5/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198410390	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/5/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198415407	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/5/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198415414	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/5/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198415414	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/5/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198415465	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198415585	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198420619	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198420856	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198420856	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198421135	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/6/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198421308	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/6/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198426338	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/6/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198426345	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/6/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198426345	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/6/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198426393	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198426493	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198431545	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198431829	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198431829	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198432059	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/7/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198432360	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/7/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198437380	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/7/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198437387	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/7/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+1508198437387	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/7/dynasty-desc;jsessionid=185F98E5047C4C33592DEC8FAFB967BF?t:state:flow=d44ab194-7304-4b1e-8822-629a80d7e1de"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198437449	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198437579	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198646632	geckodriver	INFO	Listening on 127.0.0.1:51672
+1508198647666	mozprofile::profile	INFO	Using profile path /var/folders/zw/81fw4jhn08db278fz9n86ywm0000gn/T/rust_mozprofile.W58oxbe2v0JJ
+1508198647667	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1508198647673	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51681
+1508198647881	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1508198648145	Marionette	INFO	Enabled via --marionette
+2017-10-16 17:04:08.810 plugin-container[17363:2330113] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaf3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-16 17:04:08.811 plugin-container[17363:2330113] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xb203, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1508198649219	Marionette	INFO	Listening on port 51681
+1508198649232	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508198649260	Marionette	DEBUG	Register listener.js for window 2147483649
+1508198649294	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508198650460	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508198650460	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198651480	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198653022	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198653087	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198653317	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198653317	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198653466	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/0/dynasty-desc;jsessionid=CA03DAA5A6B1D88366CBB8CE79ABB861?t:state:flow=9b92030d-1473-4f4a-8961-f967e55a0722"
+1508198653513	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/0/dynasty-desc;jsessionid=CA03DAA5A6B1D88366CBB8CE79ABB861?t:state:flow=9b92030d-1473-4f4a-8961-f967e55a0722"
+1508198658534	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/0/dynasty-desc;jsessionid=CA03DAA5A6B1D88366CBB8CE79ABB861?t:state:flow=9b92030d-1473-4f4a-8961-f967e55a0722"
+1508198658542	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/0/dynasty-desc;jsessionid=CA03DAA5A6B1D88366CBB8CE79ABB861?t:state:flow=9b92030d-1473-4f4a-8961-f967e55a0722"
+1508198658542	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/0/dynasty-desc;jsessionid=CA03DAA5A6B1D88366CBB8CE79ABB861?t:state:flow=9b92030d-1473-4f4a-8961-f967e55a0722"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198658594	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198658956	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198664003	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198664169	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198664169	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198664317	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/1/dynasty-desc;jsessionid=CA03DAA5A6B1D88366CBB8CE79ABB861?t:state:flow=9b92030d-1473-4f4a-8961-f967e55a0722"
+1508198664377	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/1/dynasty-desc;jsessionid=CA03DAA5A6B1D88366CBB8CE79ABB861?t:state:flow=9b92030d-1473-4f4a-8961-f967e55a0722"
+1508198732936	geckodriver	INFO	Listening on 127.0.0.1:51922
+1508198733974	mozprofile::profile	INFO	Using profile path /var/folders/zw/81fw4jhn08db278fz9n86ywm0000gn/T/rust_mozprofile.M5l2AxNex9Jv
+1508198733975	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1508198733979	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51931
+1508198734169	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1508198734424	Marionette	INFO	Enabled via --marionette
+2017-10-16 17:05:35.142 plugin-container[17373:2333296] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xad3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-16 17:05:35.143 plugin-container[17373:2333296] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xb003, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1508198735488	Marionette	INFO	Listening on port 51931
+1508198735533	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508198735563	Marionette	DEBUG	Register listener.js for window 2147483649
+1508198735592	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508198736357	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508198736357	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198738156	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198740626	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198740687	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198740915	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198740915	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198741059	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/0/dynasty-desc;jsessionid=02F23CB1F23539DE378B571541B22B4B?t:state:flow=66833e99-73d6-4cea-af09-f5b537156ebe"
+1508198741107	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/0/dynasty-desc;jsessionid=02F23CB1F23539DE378B571541B22B4B?t:state:flow=66833e99-73d6-4cea-af09-f5b537156ebe"
+1508198746208	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/0/dynasty-desc;jsessionid=02F23CB1F23539DE378B571541B22B4B?t:state:flow=66833e99-73d6-4cea-af09-f5b537156ebe"
+1508198746215	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/0/dynasty-desc;jsessionid=02F23CB1F23539DE378B571541B22B4B?t:state:flow=66833e99-73d6-4cea-af09-f5b537156ebe"
+1508198746215	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/0/dynasty-desc;jsessionid=02F23CB1F23539DE378B571541B22B4B?t:state:flow=66833e99-73d6-4cea-af09-f5b537156ebe"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198746308	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198746577	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198751627	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198751792	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198751793	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198751953	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/1/dynasty-desc;jsessionid=02F23CB1F23539DE378B571541B22B4B?t:state:flow=66833e99-73d6-4cea-af09-f5b537156ebe"
+1508198751989	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/1/dynasty-desc;jsessionid=02F23CB1F23539DE378B571541B22B4B?t:state:flow=66833e99-73d6-4cea-af09-f5b537156ebe"
+1508198757082	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/1/dynasty-desc;jsessionid=02F23CB1F23539DE378B571541B22B4B?t:state:flow=66833e99-73d6-4cea-af09-f5b537156ebe"
+1508198757089	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/1/dynasty-desc;jsessionid=02F23CB1F23539DE378B571541B22B4B?t:state:flow=66833e99-73d6-4cea-af09-f5b537156ebe"
+1508198757089	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/1/dynasty-desc;jsessionid=02F23CB1F23539DE378B571541B22B4B?t:state:flow=66833e99-73d6-4cea-af09-f5b537156ebe"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198757138	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198757421	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198866391	geckodriver	INFO	Listening on 127.0.0.1:52442
+1508198867422	mozprofile::profile	INFO	Using profile path /var/folders/zw/81fw4jhn08db278fz9n86ywm0000gn/T/rust_mozprofile.bN0Uup4i3rb4
+1508198867423	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1508198867425	geckodriver::marionette	INFO	Connecting to Marionette on localhost:52455
+1508198867609	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1508198867867	Marionette	INFO	Enabled via --marionette
+2017-10-16 17:07:48.584 plugin-container[17383:2336313] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-10-16 17:07:48.584 plugin-container[17383:2336313] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaf03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1508198868915	Marionette	INFO	Listening on port 52455
+1508198868974	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508198869002	Marionette	DEBUG	Register listener.js for window 2147483649
+1508198869019	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508198869545	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508198869546	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198870378	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198871832	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198871898	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198872174	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198872175	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198872308	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/0/dynasty-desc;jsessionid=1773E0A995DD78C6DACA2ADF3C3D9805?t:state:flow=1cb599e1-a874-4079-9aac-125e64ba7af2"
+1508198872390	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/0/dynasty-desc;jsessionid=1773E0A995DD78C6DACA2ADF3C3D9805?t:state:flow=1cb599e1-a874-4079-9aac-125e64ba7af2"
+1508198877505	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/0/dynasty-desc;jsessionid=1773E0A995DD78C6DACA2ADF3C3D9805?t:state:flow=1cb599e1-a874-4079-9aac-125e64ba7af2"
+1508198877513	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/0/dynasty-desc;jsessionid=1773E0A995DD78C6DACA2ADF3C3D9805?t:state:flow=1cb599e1-a874-4079-9aac-125e64ba7af2"
+1508198877513	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/0/dynasty-desc;jsessionid=1773E0A995DD78C6DACA2ADF3C3D9805?t:state:flow=1cb599e1-a874-4079-9aac-125e64ba7af2"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198877563	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198877678	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198882730	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198882930	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198882930	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198883108	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/1/dynasty-desc;jsessionid=1773E0A995DD78C6DACA2ADF3C3D9805?t:state:flow=1cb599e1-a874-4079-9aac-125e64ba7af2"
+1508198883155	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/1/dynasty-desc;jsessionid=1773E0A995DD78C6DACA2ADF3C3D9805?t:state:flow=1cb599e1-a874-4079-9aac-125e64ba7af2"
+1508198888257	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/1/dynasty-desc;jsessionid=1773E0A995DD78C6DACA2ADF3C3D9805?t:state:flow=1cb599e1-a874-4079-9aac-125e64ba7af2"
+1508198888264	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/1/dynasty-desc;jsessionid=1773E0A995DD78C6DACA2ADF3C3D9805?t:state:flow=1cb599e1-a874-4079-9aac-125e64ba7af2"
+1508198888264	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/1/dynasty-desc;jsessionid=1773E0A995DD78C6DACA2ADF3C3D9805?t:state:flow=1cb599e1-a874-4079-9aac-125e64ba7af2"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198888313	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198888390	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198893435	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198893693	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198893693	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198893905	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/2/dynasty-desc;jsessionid=1773E0A995DD78C6DACA2ADF3C3D9805?t:state:flow=1cb599e1-a874-4079-9aac-125e64ba7af2"
+1508198894050	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/2/dynasty-desc;jsessionid=1773E0A995DD78C6DACA2ADF3C3D9805?t:state:flow=1cb599e1-a874-4079-9aac-125e64ba7af2"
+1508198899140	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/2/dynasty-desc;jsessionid=1773E0A995DD78C6DACA2ADF3C3D9805?t:state:flow=1cb599e1-a874-4079-9aac-125e64ba7af2"
+1508198899147	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/2/dynasty-desc;jsessionid=1773E0A995DD78C6DACA2ADF3C3D9805?t:state:flow=1cb599e1-a874-4079-9aac-125e64ba7af2"
+1508198899147	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/2/dynasty-desc;jsessionid=1773E0A995DD78C6DACA2ADF3C3D9805?t:state:flow=1cb599e1-a874-4079-9aac-125e64ba7af2"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198899196	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198899273	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198904316	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198904710	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198904710	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198904905	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/3/dynasty-desc;jsessionid=1773E0A995DD78C6DACA2ADF3C3D9805?t:state:flow=1cb599e1-a874-4079-9aac-125e64ba7af2"
+1508198905162	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/3/dynasty-desc;jsessionid=1773E0A995DD78C6DACA2ADF3C3D9805?t:state:flow=1cb599e1-a874-4079-9aac-125e64ba7af2"
+1508198910249	Marionette	DEBUG	Received DOM event "beforeunload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/3/dynasty-desc;jsessionid=1773E0A995DD78C6DACA2ADF3C3D9805?t:state:flow=1cb599e1-a874-4079-9aac-125e64ba7af2"
+1508198910256	Marionette	DEBUG	Received DOM event "pagehide" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/3/dynasty-desc;jsessionid=1773E0A995DD78C6DACA2ADF3C3D9805?t:state:flow=1cb599e1-a874-4079-9aac-125e64ba7af2"
+1508198910257	Marionette	DEBUG	Received DOM event "unload" for "http://fashionmuseum.fitnyc.edu/view/objects/asitem/760/3/dynasty-desc;jsessionid=1773E0A995DD78C6DACA2ADF3C3D9805?t:state:flow=1cb599e1-a874-4079-9aac-125e64ba7af2"
+JavaScript warning: http://fashionmuseum.fitnyc.edu/assets/5.0.16/tapestry/tapestry.js, line 1600: unreachable code after return statement
+1508198910308	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+1508198910429	Marionette	DEBUG	Received DOM event "pageshow" for "http://fashionmuseum.fitnyc.edu/view/objects/aslist/760/0/dynasty-desc?t:state:flow=2e22af4a-785f-4810-b535-e2f2d8d6a954"
+>>>>>>> 8640334f4b619717a4e286eae62ce018b3d8c367
