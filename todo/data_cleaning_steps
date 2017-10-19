@@ -1,0 +1,31 @@
+Data Cleaning:
+
+
+Delete records with ‘:’ in the description for sake of pandas.DataFrame():
+
+> db.fashion.remove({'at one point, rei kawakubo made the enigmatic statement': {$exists: true}})
+
+> db.fashion.remove({'“the concept of the visible corset has become a socially acceptable form of erotic display,” wrote fashion historian valerie steele in her 2001 book, the corset': {$exists: true}})
+
+> db.fashion.remove({'this gown illustrates the fact that madame grès appropriated classical references from all periods, ranging from antiquity to art modern': {$exists: true}})
+
+> db.fashion.remove({'the patterning on this day dress was achieved through discharge printing': {$exists: true}})
+
+> db.fashion.remove({'since her eponymous first collection in 1985, donna karan has displayed an innate understanding of her ideal client': {$exists: true}})
+
+> db.fashion.remove({'maggy rouff was born into the business of fashion': {$exists: true}})
+
+> db.fashion.remove({'norma kamali\'s affinity for drapery is evident in this evening dress, but the ever-innovative designer put a twist on an old standard': {$exists: true}})
+
+> db.fashion.remove({'this novelty handbag is an impish take on feminism': {$exists: true}})
+
+> db.fashion.remove({'when 21-year-old mary quant opened her boutique, bazaar, in the chelsea section of london in 1955, she was catering to the needs of her peers': {$exists: true}})
+
+	Follow up:
+		>>> write a function to handle the web scraping with ‘: ‘ mixed into fields
+		When: this weekend?
+
+
+Create ‘circa’ col
+
+This is for 
