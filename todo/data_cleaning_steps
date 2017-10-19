@@ -26,6 +26,9 @@ Delete records with ‘:’ in the description for sake of pandas.DataFrame():
 		When: this weekend?
 
 
-Create ‘circa’ col
+Create ‘circa’ column:
 
-This is for 
+This is for columns with 'c. ' or 'c.', to add a range of plus/minus (1?) year for weighting?
+
+
+
