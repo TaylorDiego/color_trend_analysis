@@ -1,3 +1,4 @@
+
 Data Cleaning:
 
 
@@ -31,4 +32,16 @@ Create ‘circa’ column:
 This is for columns with 'c. ' or 'c.', to add a range of plus/minus (1?) year for weighting?
 
 
+Create 'season' column:
 
+This is for columns which have some season label wihtin the 'date' field.
+
+
+Create seasons columns:
+
+seasons = ['Spring','Summer', 'Winter', 'Fall', 'Autumn']
+mask = df['date'].str.contains('|'.join(seasons))
+
+for ssn in seasons:
+    mask = df['date'].str.contains(ssn)
+    df[str(ssn)] = mask
