@@ -49,3 +49,9 @@ for ssn in seasons:
 	#removed 'Autumn' bc True.count() = 0
 
 	del df['Autumn']
+
+
+
+Remove letters left ('r', 's')
+
+
