@@ -52,6 +52,6 @@ for ssn in seasons:
 
 
 
-Remove letters left ('r', 's')
+Remove "straggler" values left ('Early 20th ntry','late', 'r', 's', ' ')
 
 
