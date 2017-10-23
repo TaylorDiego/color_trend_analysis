@@ -1,14 +1,20 @@
-from skimage import io as skio
+import matplotlib.pyplot as plt
+%matplotlib inline
 
 
+palette_list = []
+color_tup_lst = []
+color_val = []
 
+def display_color(color_arr):
+    return plt.imshow([(color_arr)])
+    #color_tup_lst = []
 
+def convert_rgb_to_percent(pal_test):
+    for color in pal_test:
+        for rgb_val in color:
+            color_val.append(rgb_val/255)
+        color_tup_lst.append(tuple(color_val))
+        color_val.clear()
 
-
-
-
-url = 'http://i.stack.imgur.com/SYxmp.jpg'
-img = skio.imread(url)
-
-print("shape of image: {}".format(img.shape))
-print("dtype of image: {}".format(img.dtype))
+    return color_tup_lst
