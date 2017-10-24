@@ -3,7 +3,7 @@ import cv2
 from colorthief import ColorThief
 import io
 import matplotlib.pyplot as plt
-%matplotlib inline
+# %matplotlib inline
 
 class Palettization():
     """processes a single image path and returns image, centroids(dominant colors), palette"""
@@ -41,7 +41,7 @@ class Palettization():
     def _centroid_cos_similar(self, pixels, centroid):
         numerator = (pixels * centroid).sum(axis=1)
         denominator = (np.linalg.norm(pixels, axis=1) * np.linalg.norm(centroid))
-        return (numerator / denominator)
+        return numerator / denominator
 
 
     def centroid_cos_similar(self):
@@ -76,3 +76,10 @@ class Palettization():
         colorthief = ColorThief(self.img_path)
         img = colorthief.image
         return img
+
+
+if __name__ == "__main__":
+    img_path = '/Users/Rabbit/Downloads/spices_test.jpg'
+    self.display_img()
+    self.display_palette()
+    self.zip_centroid_count()
