@@ -13,6 +13,7 @@ decade_palettes = {}
 
 def create_decade_palette(df):
     for decade in decade_list:
+        print(decade)
         decade_palettes[decade] = list(df[df['decade'] == decade, 'palette'])
     return decade_palettes
 
