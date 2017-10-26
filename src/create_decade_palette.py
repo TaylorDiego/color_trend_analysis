@@ -18,4 +18,4 @@ def create_decade_palette(df):
 
 d_p_list = create_decade_palette(df)
 
-print()
+print(d_p_list)
