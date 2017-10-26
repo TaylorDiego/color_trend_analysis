@@ -6,7 +6,7 @@ from colorthief import ColorThief
 import io
 from colorutils import Color
 import matplotlib.pyplot as plt
-%matplotlib inline
+
 
 
 class SetSimilarity():
