@@ -13,10 +13,14 @@ decade_palettes = {}
 
 def create_decade_palette(df):
     for decade in decade_list:
-        print(decade)
-        decade_palettes[decade] = list(df[df['decade'] == decade, 'palette'])
+        decade_palettes[decade] = list(df.loc[df['decade'] == decade, 'palette'])
     return decade_palettes
 
 d_p_list = create_decade_palette(df)
 
-print(d_p_list)
+for decade in decade_list:
+    print(SetSimilarity().set_central_list(d_p_list[decade]))
+
+
+
+#print(d_p_list)
