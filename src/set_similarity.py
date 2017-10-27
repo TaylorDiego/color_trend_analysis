@@ -19,11 +19,9 @@ class SetSimilarity():
         """return the distance(float) between two items(rgb vectors)"""
 
         a = Color(color_a)
-        hsv_a = a.hsv
-        hsv_a[0] = hsv_a[0] / 360.0
+        hsv_a = (a.hsv[0]/360, a.hsv[1], a.hsv[2])
         b = Color(color_b)
-        hsv_b = b.hsv
-        hsv_b[0] = hsv_b[0] / 360.0
+        hsv_b = (b.hsv[0]/360, b.hsv[1], b.hsv[2])
         dist_c2c = np.linalg.norm(np.array(hsv_a) - np.array(hsv_b))
         return(dist_c2c)
 
