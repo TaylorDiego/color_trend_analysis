@@ -17,7 +17,12 @@ class SetSimilarity():
 
     def c2c_dist(self, color_a, color_b):
         """return the distance(float) between two items(rgb vectors)"""
-        dist_c2c = np.linalg.norm(np.array(color_a) - np.array(color_b))
+
+        a = Color(color_a)
+        hsv_a = a.hsv
+        b = Color(color_b)
+        hsv_b = b.hsv
+        dist_c2c = np.linalg.norm(np.array(hsv_a) - np.array(hsv_b))
         return(dist_c2c)
 
     def c2p_dist(self, color_a, palette_b):
