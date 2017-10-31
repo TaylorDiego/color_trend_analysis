@@ -40,8 +40,8 @@ class SetSimilarity():
         """return sum(float) of c2p_dist between two sets(palette)"""
         # sum of c2p-dists
         dist_p2p_list = []
-        for color in palette_a:
-            dist_p2p_list.append(self.c2p_dist(color, palette_b))
+        for color in palette_a[1:]:
+            dist_p2p_list.append(self.c2p_dist(color, palette_b[1:]))
             dist_p2p = np.sum(dist_p2p_list)
         return(dist_p2p)
 
@@ -53,7 +53,7 @@ class SetSimilarity():
             palette_a_centrality_list = []
 
             for palette in list_of_palettes:
-                palette_a_centrality_list.append(self.p2p_dist(palette_a[1:], palette[1:]))
+                palette_a_centrality_list.append(self.p2p_dist(palette_a, palette))
 
             sum_temp = np.sum(palette_a_centrality_list)
             p_cent_list.append((sum_temp, palette_a))
