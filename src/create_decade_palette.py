@@ -13,7 +13,7 @@ decade_palettes = {}
 
 def create_decade_palette(df):
     for decade in decade_list:
-        decade_palettes[decade] = list(df.loc[df['decade'] == decade, 'palette'])
+        decade_palettes[decade] = list(df.loc[df['decade'] == decade, 'slice_palette'])
     return decade_palettes
 
 d_p_list = create_decade_palette(df)
