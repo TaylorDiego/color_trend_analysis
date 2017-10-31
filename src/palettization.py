@@ -18,7 +18,8 @@ class Palettization():
     def get_palette_(self):
         """return image color palette"""
         colorthief = ColorThief(self.img_path)
-        img_palette = colorthief.get_palette(color_count=7, quality=1)
+        all_color_pal = colorthief.get_palette(color_count=7, quality=1)
+        img_palette = all_color_pal[1:]
         return img_palette
 
 
