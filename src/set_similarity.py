@@ -62,4 +62,4 @@ class SetSimilarity():
         p_cent_list_srtd = sorted(p_cent_list, key=lambda x: x[0])
 
         p_central = [ x for x in p_cent_list_srtd if x[0]==p_min ]
-        return(p_cent_list_srtd[0:5])
+        return(p_cent_list_srtd[0])
