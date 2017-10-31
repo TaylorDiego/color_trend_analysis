@@ -30,7 +30,7 @@ class SetSimilarity():
         """find min dist between color_a and all colors in palet_b
         use c2c_dist"""
         dist_c2p_list = []
-        for color in palette_b:
+        for color in palette_b[1:]:
             dist = self.c2c_dist(color, color_a)
             dist_c2p_list.append(dist)
         dist_c2p = np.amin(dist_c2p_list)
@@ -49,14 +49,14 @@ class SetSimilarity():
         """return most 'central' set(palette(s), if there are multiples)"""
         p_cent_list = []
 
-        for palette_a in list_of_palettes:
+        for palette_a[1:] in list_of_palettes:
             palette_a_centrality_list = []
 
-            for palette in list_of_palettes:
+            for palette[1:] in list_of_palettes:
                 palette_a_centrality_list.append(self.p2p_dist(palette_a, palette))
 
             sum_temp = np.sum(palette_a_centrality_list)
-            p_cent_list.append((sum_temp, palette_a))
+            p_cent_list.append((sum_temp, palette_a[1:]))
 
         p_min = min(p_cent_list, key=itemgetter(0))[0]
         p_cent_list_srtd = sorted(p_cent_list, key=lambda x: x[0])
