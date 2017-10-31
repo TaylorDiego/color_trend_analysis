@@ -49,11 +49,11 @@ class SetSimilarity():
         """return most 'central' set(palette(s), if there are multiples)"""
         p_cent_list = []
 
-        for palette_a[1:] in list_of_palettes:
+        for palette_a in list_of_palettes:
             palette_a_centrality_list = []
 
-            for palette[1:] in list_of_palettes:
-                palette_a_centrality_list.append(self.p2p_dist(palette_a, palette))
+            for palette in list_of_palettes:
+                palette_a_centrality_list.append(self.p2p_dist(palette_a[1:], palette[1:]))
 
             sum_temp = np.sum(palette_a_centrality_list)
             p_cent_list.append((sum_temp, palette_a[1:]))
