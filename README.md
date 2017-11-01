@@ -2,6 +2,8 @@
 A study of color trends by decade from 1900 to present.
 
 Color Trend Analysis (C.T.A.)
+
+
 Acknowledgement:
 I’d like to acknowledge both Aaron Lichtner, data scientist with Nordstrom, and Jade Tabony, machine learning expert with MetaBrite, who helped me mold this idea from several others that I had been contemplating. Many others I have talked with have also given their inputs, in one way or another.
 
