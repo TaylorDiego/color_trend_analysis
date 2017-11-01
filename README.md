@@ -1,5 +1,5 @@
 # color_trend_analysis
-An archeological survey of fashion from the 20th century to present, focused on color trends
+A study of color trends by decade from 1900 to present.
 
 Color Trend Analysis (C.T.A.)
 Acknowledgement:
