@@ -1,7 +1,7 @@
-# dyanye_clothing_era_classifier
+# color_trend_analysis
 An archeological survey of fashion from the 20th century to present, focused on color trends
 
-“D.Y.A.N.Y.E. - Dress your age (not your era)”: Clothing Era Classifier
+Color Trend Analysis (C.T.A.)
 Acknowledgement:
 I’d like to acknowledge both Aaron Lichtner, data scientist with Nordstrom, and Jade Tabony, machine learning expert with MetaBrite, who helped me mold this idea from several others that I had been contemplating. Many others I have talked with have also given their inputs, in one way or another.
 
