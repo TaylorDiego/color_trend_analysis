@@ -19,8 +19,8 @@ def create_decade_palette(df):
 d_p_list = create_decade_palette(df)
 
 for decade in decade_list:
-    print(decade)
-    # print(SetSimilarity().set_central_list(d_p_list[decade]))
+    # print(decade)
+    print(SetSimilarity().set_central_list(d_p_list[decade]))
 
 
 
