@@ -23,4 +23,4 @@ d_p_list = create_decade_palette(df)
 
 
 
-print(d_p_list)
+print(d_p_list[0])
